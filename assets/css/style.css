@@ -1,0 +1,174 @@
+header{
+    height: 70px;
+    width: 100%;
+    background: #fff;
+    color:#ccc;
+    border-bottom: 0.5px solid #ccc;
+
+}
+
+.header-container{
+    width: 960px;
+    margin: 21px auto 0px auto; 
+    height: 90px;
+}
+
+
+span{
+    font-size: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color:#fff;
+    display: inline-block;
+    height: 70px;
+    
+}
+
+span > div{
+    margin-top:13%;
+    width: 190px;
+    text-align: center;
+}
+
+
+ul>li{
+    color:#777;
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.menu{
+    float: right;
+    margin-top:32px;
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    min-height: 800px;
+    background-image: url(../images/bg.png);
+}
+
+
+footer{
+    border-top: 2px solid #4aaaa5;
+    height: 25px;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+    position: absolute;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-container{
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+    padding: 40px;
+  
+}
+
+.connect{
+    width: 18%;
+    height: 150px;
+    background-color: #fff;
+    float: right;
+    position: absolute;
+    right: 181px;
+    top: 144px;
+}
+.contact{
+    width: 650px;
+    height: 457px;
+    background-color: white;
+    position: relative; 
+    width: 650px;
+    height: 457px;
+   
+}
+.contact div{
+    margin-top: 13px;
+    padding-top:10px;
+}
+
+.connect div{
+    margin-top: 13px;
+    padding-top:10px;
+}
+
+#contact{
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: relative;
+    font-weight: bold;
+    font-size: 40px; 
+    margin:10px 0px 0px 20px;
+}
+
+#connect{
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: relative;
+    font-weight: bold;
+    font-size: 22px;
+    margin: -9px 0px 0px 20px;
+}
+.border{
+    color:#ccc;
+    margin: 8px 20px;
+}
+
+.connect .border{
+    color:#ccc;
+    margin: 8px 20px;
+}
+
+.connect-tools{
+    margin:0 auto;
+    width: 190px;
+    height: 50px;
+    padding: 3px;
+}
+
+
+.connect-tools img{
+    width: 26%;
+    height: 44px;
+    margin: 0px 2px -3px 7px;
+}
+.contact-form{
+    margin: 10px 0px 0px 20px;
+}
+
+input[type=text]{
+    border: 1px solid #ccc;
+    margin: 4px 0px 15px 0px;
+    height: 25px;
+    padding: 1px 0px 1px 8px;
+    width: 95%;
+}
+input[type=submit]{
+    height: 31px;
+    background-color: #4aaaa5;
+    color: white;
+    border: 1px solid #4aaaa5;
+    padding: 5px;
+    font-size: 18px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+textarea{
+    height: 150px;
+    width: 95%;
+    border: 1px solid #ccc;
+    margin-top:4px;
+}
+

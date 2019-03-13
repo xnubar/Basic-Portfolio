@@ -1,3 +1,4 @@
+
 header{
     height: 70px;
     width: 100%;
@@ -70,7 +71,7 @@ footer{
     margin: 0 auto;
     width: 960px;
     height: 500px;
-    padding: 40px;
+    padding: 16px;
   
 }
 
@@ -92,9 +93,50 @@ footer{
     height: 457px;
    
 }
+
+.portfolio{
+    width: 650px;
+    height: 457px;
+    background-color: white;
+    position: relative; 
+    width: 486px;
+    height: 457px;
+}
+
+
+.box {
+    position: relative;
+    float: left;
+}
+
+.text {
+    background: dodgerblue;
+    color: white;
+    padding: 5px 10px 0;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    width: 157px;
+    height: 27px;
+    text-align: center;
+}
+
+.box img{
+    width: 193px;
+    height: 130px;
+}
+.images{
+    padding: 10px 40px 0px 40px ;
+}
+
 .contact div{
     margin-top: 13px;
     padding-top:10px;
+}
+li a{
+    text-decoration: none;
+    color:#777;
+
 }
 
 .connect div{
@@ -146,9 +188,41 @@ footer{
     margin: 10px 0px 0px 20px;
     padding: 10px;
 }
+
+.portfolio{
+    width: 466px;
+    background-color: white;
+    position: absolute; 
+    height: 501px;
+    padding: 3px;
+}
 .contact-form p{
     line-height: 1.5em;
 }
+
+.img-container{
+    margin:0 auto;
+    width: 426px;
+    height: 382px;
+
+}
+
+.img-container img{
+   width: 201px;
+    min-height: 115px;
+    max-height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+ 
+}
+
+.img-container img{
+    height: 100%;
+
+}
+
+
 
 input[type=text]{
     border: 1px solid #ccc;
@@ -180,4 +254,12 @@ textarea{
     float: left;
     width: 120px;
     height: 80px;;
+}
+
+.footer-border{
+    color:rgb(7, 17, 63);
+    margin: -70px 20px;
+    width: 960px;
+    border: 0.5px solid rgb(7, 17, 63);
+    margin: -70px auto;
 }

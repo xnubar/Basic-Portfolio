@@ -144,6 +144,10 @@ footer{
 }
 .contact-form{
     margin: 10px 0px 0px 20px;
+    padding: 10px;
+}
+.contact-form p{
+    line-height: 1.5em;
 }
 
 input[type=text]{
@@ -172,3 +176,8 @@ textarea{
     margin-top:4px;
 }
 
+.profile-img{
+    float: left;
+    width: 120px;
+    height: 80px;;
+}
